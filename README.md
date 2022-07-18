@@ -1,2 +1,2 @@
 # FridayFood
-An online food service web app
+An online food service ecommerce web app developed with the MERN stack
