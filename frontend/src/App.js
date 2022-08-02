@@ -11,7 +11,7 @@ function App() {
     <BrowserRouter>
       <div className="d-flex flex-column site-container">
         <header>
-          <Navbar style={{ backgroundColor: '#DDA0DD' }} variant="dark">
+          <Navbar className="navbar-custom">
             <Container>
               <LinkContainer to="/">
                 <Navbar.Brand>The Friday Food</Navbar.Brand>

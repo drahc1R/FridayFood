@@ -11,6 +11,16 @@ body {
   min-height: 100vh;
 }
 
+.navbar-custom {
+  background-color: #f9f0db;
+}
+/* Modify brand and text color */
+
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+  color: #a97a36;
+}
+
 main {
   flex: 1;
 }
