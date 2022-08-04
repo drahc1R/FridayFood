@@ -19,10 +19,17 @@ body {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
   color: #a97a36;
+  /* font-weight: bolder; */
 }
 
 main {
   flex: 1;
+}
+
+.btn-primary {
+  background-color: #000 !important;
+  color: #fff !important;
+  border-color: #000 !important;
 }
 
 .products {
@@ -39,4 +46,12 @@ main {
 .product img {
   width: 100%;
   max-width: 400px;
+}
+
+.product info {
+  padding: 1rem;
+}
+
+.img-large {
+  width: 100%;
 }

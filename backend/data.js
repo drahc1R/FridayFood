@@ -17,7 +17,7 @@ const data = {
       category: 'Cakes',
       image: '/images/persimmoncake.jpg',
       price: 1.99,
-      countInStock: 5,
+      countInStock: 0,
       rating: 4.7,
       numReviews: 14,
       description: 'A delicious chocolate cookie',
