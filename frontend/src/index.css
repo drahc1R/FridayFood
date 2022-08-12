@@ -19,6 +19,7 @@ body {
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
   color: #a97a36;
+
   /* font-weight: bolder; */
 }
 
@@ -53,5 +54,5 @@ main {
 }
 
 .img-large {
-  width: 100%;
+  max-width: 100%;
 }
