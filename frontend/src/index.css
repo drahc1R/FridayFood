@@ -13,6 +13,7 @@ body {
 
 .navbar-custom {
   background-color: #f9f0db;
+  margin-bottom: 20px;
 }
 /* Modify brand and text color */
 
@@ -55,4 +56,8 @@ main {
 
 .img-large {
   max-width: 100%;
+}
+
+.img-thumbnail {
+  height: 80px !important;
 }
