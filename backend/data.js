@@ -1,7 +1,24 @@
+import bcrypt from 'bcryptjs';
+
 const data = {
+  users: [
+    {
+      name: 'Richard',
+      email: 'admin@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: true,
+    },
+    {
+      name: 'John',
+      email: 'user@example.com',
+      password: bcrypt.hashSync('123456'),
+      isAdmin: false,
+    },
+  ],
+
   products: [
     {
-      _id: '1',
+      // _id: '1',
       name: 'Glazed Donut',
       slug: 'glazed-donut',
       category: 'Donuts',
@@ -13,7 +30,7 @@ const data = {
       description: 'A delicious glazed donut',
     },
     {
-      _id: '2',
+      // _id: '2',
       name: 'Persimmon Cake',
       slug: 'persimmon-cake',
       category: 'Cakes',
@@ -25,7 +42,7 @@ const data = {
       description: 'A delicious chocolate cookie',
     },
     {
-      _id: '3',
+      // _id: '3',
       name: 'Vietnamese Iced Coffee Cake',
       slug: 'vietnamese-iced-coffee-cake',
       category: 'Cakes',
